@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.all{
+   
+}
+.headd{
+    display: flex;
+   justify-content: space-between;
+   background-color: aquamarine;
+   
+   
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+.dizer p{
+    padding: 20px;
+    font-size: 45px;
+    
+}
+.dizer span{
+    font-family: serif;
+    font-size: 50px;
+    color: orangered;
+    
+}
+.nav{
+    padding-top: 50px;
+    padding-right: 40px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    padding-right: 16px;
+    color: black;
+}
+.display{
+    flex-direction: row;
+    width: 90%;
+    padding-top:40px ;
+    
+}
+.right{
+    float: right;
+    top: 10px;
+    width: 38%;
+   
+}
+.right img{
+  
+    height: 570px;
+    width: 450px;
+    padding-left: 50px;
+    
+}
+.left{
+    float: left;
+    padding-top: 100px;
+    padding-left: 131px;
+    width: 50%;
+    height: 420px;
+    
+}
+.left h3{
+    color: orange;
+    padding: 14px;
+}
+.left h2{
+    font-size: 40px;
+}
+.left p{
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.left button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.left button:hover{
+    background-color: rgb(194, 156, 163);
+}
+.comment{
+    padding-top: 40px;
+}
+.comment textarea{
+    border: 2px solid aquamarine;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    
+}
+
+.marketing{
+    padding-left: 40px;
+    display: flex;
+    padding-top: 0px;
+    width: 97%;
+    background-color: rgb(194, 156, 163);
+}
+.design{
+    padding-left: 80px;
+    width: 30%;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    padding-bottom: 80px;
+   
+}
+.brand{
+    padding-left: 80px;
+    width: 30%;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+.brand h3{
+    padding-top: 20px;
+}
+.seo{
+    padding-left: 80px;
+    width: 30%;
+    border: 1px solid black;
+    border-top: none;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.seo h3{
+    padding-top: 20px;
+}
+.design h3{
+    padding-top: 20px;
+}
+#email{
+   padding: 10px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+  border-bottom-width: 1px;
+  width: 240px;
+
+}
+.contact-form{
+    padding-top: 100px;
+    float: left;
+    padding-left: 100px;
+   width: 550px;
+}
+
+.contact-form p{
+    padding-top: 10px;
+    font-size: 38px;
+}
+.contact-form h3{
+    font-size: 40px;
+    font-size: 20px;
+    color: rgb(195, 138, 138);
+    
+}
+.form{
+    padding-top: 40px;
+    
+}
+#first-name{
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    width: 240px;
+    
+ }
+#last-name{
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    width: 240px;
+}
+.quote {
+    padding-top: 60px;
+   
+}
+.quote button{
+    width: 140px;
+    height: 50px;
+    border: 1px solid aquamarine;
+    border-radius: 7px;
+    background-color: aquamarine;
+}
+.quote button:hover{
+    background-color: #fff;
+
+}
+#phone{
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    width: 240px;
+}
+.contact{
+    flex-direction: row;
+    height: 800px;}
+.right1{
+    float: right;
+    padding-bottom: 80px;
+    padding-right: 180px;
+    margin-left: 20px;
+}
+.right1 img{
+    height: 450px;
+
+}
+.last{
+    display: flex;
+    padding-top: 100px;
+    width: 95%;
+    padding-left: 60px;
+    padding-right: 0px;
+    background-color: rgb(94, 94, 113);
+   padding-bottom: 50px;
+}
+.last div{
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 10px;
+}
+.mod h3{
+    padding-bottom:20px;
+    font-size: 30px;
+    
+}
+.mod p{
+      font-size: 18px;
+      
+}
+.mod i{
+   padding-top: 20px;
+   padding-left: 10px;
+}
+.mob h3{
+    padding-bottom:20px;
+    font-size: 30px;
+    
+}
+.mod i{
+    padding-top: 20px;
+}
+.mob p{
+      font-size: 18px;
+     
+}
+.mob i{
+   padding-top: 20px;
+   padding-left: 10px;
+}
+footer{
+    background-color:  rgb(94, 94, 113);
+    padding: 30px;
+    display: flex;
+}
+footer h3{
+    padding-left: 340px;
+    font-size: 26px;
+
+}
+footer span{
+    font-family: serif;
+    font-size: 50px;
+    color: orangered;
+    
+}

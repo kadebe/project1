@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    padding: 20px;
+}
+.nav li{
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 45px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.butt{
+    padding-top: 25px;
+    padding-right: 40px;
+}
+.login{
+    margin-right: 20px;
+    background-color: #fff;
+    border: none;
+}
+.Register{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+   
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.right{
+        
+        float:left;
+        width:60%;
+        height: 40%;
+        background-color:#fff;
+        color: #070707;
+        text-align:left;
+        padding-top: 150px;
+        padding-left: 10px;
+}
+ .right h1, p{
+    padding-left: 110px;
+}
+.right button{
+    margin-left: 110px;
+}
+.left{
+    float:right;
+    width:40%;
+   
+}
+.left img{
+    width: 400px;
+    height: 75%;
+}
+.data{
+    padding-top: 150px;
+    padding-right:20px
+}
+.datas{
+    display:flex;
+    padding-left:100px
+}
+/*
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+  padding-top: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-right: 500px;
+    
+}
+.header{
+    padding-left: 20px;
+}
+
+
+nav ul li {
+    margin-right: 20px;
+   
+} */
+
+

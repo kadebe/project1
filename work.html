@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        table{
+            border: 5px solid green;
+        }
+        #pp{
+            visibility:visible;
+            position:sticky;
+        }
+        #tb{
+            background-color:gray;
+            height: 80px;
+            position: relative;
+            overflow: hidden;
+            
+        }
+        .uu{
+            background-color: aliceblue;
+            height: 90px;
+            width: 200px;
+            position: relative;
+            z-index:1;
+        }
+        #pp{
+            background-color:blueviolet;
+            height: 90px;
+            width: 200px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 60px;
+        }
+        .mm{
+            background-color:brown;
+            height: 90px;
+            width: 200px;
+            position: absolute;
+            z-index: 3;
+        }
+        .one{
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .drop{
+            display: none;
+            position: absolute;
+            z-index: 1;
+            background-color: aquamarine;
+        }
+        .one:hover .drop{
+            display: block;
+            
+        }
+        .drop p:hover{
+            background-color:whitesmoke ;
+        }
+    </style>
+</head>
+<body>
+    <i class='bx bxl-facebook'></i>
+    <table border="1px">
+         <tr>
+            <td>names</td>
+            <td>gaella</td>
+         </tr>
+    </table>
+    <div id="tb">
+      <p class="uu">never giveup when obstacles arise you change the direction to reach the goal</p>
+      <p id="pp">but you don't change decision to get there </p>
+      <p class="mm">and we know taht one must first work like slave if one wishes to live like a king</p>
+    </div>
+    <div class="one">
+        <span>login</span>
+        <div class="drop">
+            <p>manager</p>
+            <p>user</p>
+             </div>
+
+    </div>
+</body>
+</html>

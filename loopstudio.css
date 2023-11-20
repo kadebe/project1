@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+   
+
+}
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    position: absolute;
+    color: #fff;
+    padding: 40px;
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 570px;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero p{
+    font-family: Calibri light;
+    position: absolute;
+    font-size: 40px;
+    border:1px solid white;
+    width: 30%;
+    height: 180px;
+    padding-top: 70px;
+    padding-left: 20px;
+    bottom: 20%;
+    left: 180px;
+    color: white;
+    word-spacing: 2px;
+}
+.Homepage{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+
+   
+    
+}
+
+
+
+.paragraph {
+     /* text-align: right; */
+     width: 300px;
+     margin-left: 580px;
+     margin-top: 170px;
+     background-color: #fff; 
+     /* width: 100px; */
+     height: 300px;
+     padding-top:50px ;
+     padding-left: 70px;
+   
+}
+.leader{
+    font-family: calibri;
+    font-size: 29px;
+}
+.hero {
+    background-image: url(image-hero.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    height: 570px;
+    color: #fff;
+}
+.product {
+    max-width: 960px;
+    
+    padding: 40px 20px;
+   
+}
+.menu-item{
+    position: absolute;
+  width: 700px;
+  height: 100%;
+   background-image: url(image-interactive.jpg);
+   /* background-size: cover; */
+   background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-left: 80px;
+   
+}
+
+
+ .pet{
+    padding-top: 80px;
+    width:60%;
+    background-color: #fff;
+    font-family:  calibri;
+    
+}
+
+.gallery{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-para p{ 
+    font-size: 20px;
+        padding-left: 70px;
+        padding-top: 80px;
+        
+    
+
+}
+ .button-para{
+    display: flex;
+    width: 400px;
+    background-color: #fff;
+    padding-top: 490px;
+    height: 30px;
+ } 
+ .button-para button{ 
+   height: 50px;
+   width: 105px;
+   margin-left: 900px;
+   background-color: #d5d1d1;
+   border: 1px  solid rgb(182, 66, 209) ;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+ margin-top: 80px;
+ border-radius: 7px;
+   
+}
+.gallery button:hover{
+    background-color: rgb(182, 66, 209);
+}
+.images{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 70px;
+    font-family:  calbri(BODY);
+
+    
+}
+.earth{
+    padding:40px;
+    background-image: url(image-deep-earth.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10px 10px;
+    color: white;
+}
+.earth p{
+    font-size: 25px;
+    padding-top: 300px;
+    
+}
+.night{
+    padding:40px;
+    background-image: url(image-night-arcade.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10 10;
+    color: white;
+}
+.night p{
+    font-size: 25px;
+    padding-top: 300px;
+    padding-left: 1%;
+}
+.soccer{
+
+    padding:40px;  
+    background-image: url(image-soccer-team.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10 10 ;
+    color: white;
+}
+.grid{
+    padding:40px;
+    background-image: url(image-grid.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10 10;
+    color: white;
+}
+.soccer p{
+font-size: 25px;
+    padding-top: 300px;
+    
+}
+.grid p{
+    font-size: 25px;
+    padding-top: 300px;
+    padding-left: 1%;
+}
+.above{
+    padding:40px;
+    background-image: url(image-from-above.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10px 10px;
+    color: white;
+}
+.above p{
+    font-size: 25px;
+    padding-top: 300px;
+    
+}
+.pocket{
+    padding:40px;
+    background-image: url(image-pocket-borealis.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10 10;
+    color: white;
+}
+.pocket p{
+    font-size: 25px;
+    padding-top: 300px;
+    padding-left: 1%;
+}
+.curiosity{
+
+    padding:40px;  
+    background-image: url(image-curiosity.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10 10 ;
+    color: white;
+}
+.feye{
+    padding:40px;
+    background-image: url(image-fisheye.jpg);
+    height: 370px;
+    width: 170px;
+    margin: 10 10;
+    color: white;
+}
+.feye p{
+font-size: 25px;
+    padding-top: 300px;
+    
+}
+.curiosity p{
+    font-size: 25px;
+    padding-top: 300px;
+    
+}
+.imag{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 70px;
+    font-family:  calbri(BODY);
+}
+
+
